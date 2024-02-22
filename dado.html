@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ZONA ECOGAME</title>
+   <link rel="stylesheet" type="text/css" href="css/dado.css">
+</head>
+<body>
+
+      <CENTER><h3 class="color-change">ZONA ECOGAME</h3></CENTER>
+
+   <section class="juego" data-opcion="TACHITOS">
+      
+      <img src="imagenes/tachitos1-removebg-preview.png" width="70px" height="60px">
+     
+      <p>TACHITOS </p>
+   </section>
+
+   <section class="juego" data-opcion="AHORCADO">
+      <img src="imagenes/images-removebg-preview.png" width="70px" height="60px">
+      <p>AHORCADO</p>
+   </section>
+
+   <section class="juego" data-opcion="RECICLAJE">
+      <img src="imagenes/reciclaje2-removebg-preview.png" width="70px" height="60px">
+      <p>RECICLAJE</p>
+   </section>
+
+   <section class="juego" data-opcion="ROMPECABEZAS">
+      <img src="imagenes/rompecabezas-removebg-preview.png" width="70px" height="60px">
+      <p>ROMPECABEZAS</p>
+   </section>
+
+   <section class="juego" data-opcion="MEMORIA">
+      <img src="imagenes/memoria-removebg-preview.png" width="70px" height="60px">
+      <p>MEMORIA</p>
+   </section>
+
+   <CENTER><div class="buttonContainer">
+       <button id="iniciarJuego"><I>INICIAR JUEGO </I></button>
+       </div></CENTER>
+   
+   <div id="contenedorPrincipal">
+      <div id="resultadoContainer" class="resultado" style="display: none;">
+         <img id="resultadoImagen" width="180px" height="150px">
+         <p id="resultadoNombre"></p>
+      </div>
+   </div>
+
+   <audio id="sonido" preload="auto">
+   <source src="sonidos/mario-bros-jump.mp3" type="audio/mp3">
+  </audio>
+
+   <img src="imagenes/LOGO.png" alt="Imagen Superior Izquierda" class="imagenSuperior">
+
+
+    <div class="star-container">
+      <div id="star" class="star"></div>
+   </div>
+
+   <a>
+      <img src="imagenes/LOGO.png" alt="Toca para entrar al juego">
+   </a>
+
+
+   <script src="scripts/scripts.js"></script>
+</body>
+</html>
